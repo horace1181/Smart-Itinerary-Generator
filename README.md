@@ -2,6 +2,7 @@
 End-to-end geospatial framework for customized pedestrian tours in the Seattle metropolitan area
 
 Workflow Overview:
+
 Data Acquisition: Download OSM layers via OSMnx; ingest POIs.
 Network Preparation: Clean and simplify graph; load into PostGIS.
 Preference Parsing: Convert user text to OSM tags via LLM.
